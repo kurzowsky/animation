@@ -2,7 +2,7 @@
 gsap.registerPlugin(TextPlugin);
 
 const wishesData = [
-    { text: "Droga Oliwko,\n\nZ okazji Twojego święta\nżyczę Ci uśmiechu na każdy dzień,", img: "pandy_2.png" },
+    { text: "Droga Oliwko,\nZ okazji Twojego święta\nżyczę Ci uśmiechu na każdy dzień,", img: "pandy_2.png" },
     { text: "siły w realizowaniu pasji,", img: "pandy_2.png" },
     { text: "odwagi do bycia sobą,", img: "pandy_2.png" },
     { text: "niekończącej się radości\ni pogody ducha,", img: "pandy_2.png" },
@@ -517,4 +517,5 @@ function renderParallax() {
     requestAnimationFrame(renderParallax);
 }
 renderParallax();
+
 
