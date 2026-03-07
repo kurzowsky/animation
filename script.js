@@ -2,21 +2,21 @@
 gsap.registerPlugin(TextPlugin);
 
 const wishesData = [
-    { text: "Droga Oliwko,\nZ okazji Twojego święta\nżyczę Ci uśmiechu na każdy dzień,", img: "pandy_2.png" },
-    { text: "siły w realizowaniu pasji,", img: "pandy_2.png" },
-    { text: "odwagi do bycia sobą,", img: "pandy_2.png" },
-    { text: "niekończącej się radości\ni pogody ducha,", img: "pandy_2.png" },
-    { text: "aby każdy Twój dzień\nbył wyjątkowy", img: "pandy_2.png" },
-    { text: "i pełen pięknych\nchwil.", img: "pandy_2.png" },
-    { text: "mnóstwa miłości i ciepła\nod bliskich,", img: "pandy_2.png" },
-    { text: "spełnienia nawet tych\nnajskrytszych marzeń,", img: "pandy_2.png" },
-    { text: "wspaniałych i inspirujących\nludzi wokół Ciebie,", img: "pandy_2.png" },
-    { text: "dużo zdrowia,\nbo ono jest najważniejsze,", img: "pandy_2.png" },
-    { text: "samych sukcesów,\nktóre dodadzą Ci skrzydeł,", img: "pandy_2.png" },
-    { text: "wewnętrznego spokoju\ni chwili tylko dla siebie,", img: "pandy_2.png" },
-    { text: "niezapomnianych\ni szalonych podróży,", img: "pandy_2.png" },
-    { text: "Pamiętaj zawsze,\nże jesteś niesamowita!", img: "pandy_2.png" },
-    { text: "Kocham Cię!\n\nKubek", img: "pandy_2.png" }
+    { text: "Droga Oliwko,\nZ okazji Twojego święta\nżyczę Ci uśmiechu na każdy dzień,", img: "1.jpg" },
+    { text: "siły w realizowaniu pasji,", img: "2.jpg" },
+    { text: "odwagi do bycia sobą,", img: "3.jpg" },
+    { text: "niekończącej się radości\ni pogody ducha,", img: "4.jpg" },
+    { text: "aby każdy Twój dzień\nbył wyjątkowy", img: "5.jpg" },
+    { text: "i pełen pięknych\nchwil.", img: "6.jpg" },
+    { text: "mnóstwa miłości i ciepła\nod bliskich,", img: "7.jpg" },
+    { text: "spełnienia nawet tych\nnajskrytszych marzeń,", img: "8.jpg" },
+    { text: "wspaniałych i inspirujących\nludzi wokół Ciebie,", img: "9.jpg" },
+    { text: "dużo zdrowia,\nbo ono jest najważniejsze,", img: "10.jpg" },
+    { text: "samych sukcesów,\nktóre dodadzą Ci skrzydeł,", img: "11.jpg" },
+    { text: "wewnętrznego spokoju\ni chwili tylko dla siebie,", img: "12.jpg" },
+    { text: "niezapomnianych\ni szalonych podróży,", img: "13.jpg" },
+    { text: "Pamiętaj zawsze,\nże jesteś niesamowita!", img: "14.jpg" },
+    { text: "Kocham Cię!\n\nKubek", img: "15.jpg" }
 ];
 
 // 1. Particle System (Canvas falling petals/leaves)
@@ -517,5 +517,4 @@ function renderParallax() {
     requestAnimationFrame(renderParallax);
 }
 renderParallax();
-
 
